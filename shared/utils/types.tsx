@@ -34,3 +34,8 @@ export interface Project {
     launch_video: string;
     url?: string;
 }
+
+export interface Skills {
+    name: string;
+    src: string; 
+}

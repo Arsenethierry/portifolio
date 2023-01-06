@@ -7,6 +7,7 @@ import { PersonalDetails, Project } from '../shared/utils/types'
 import { personalDetails } from '../shared/data/personal-details';
 import Navbar from '../shared/components/navbar'
 import SocialBar from '../shared/components/socialbar'
+import Footer from '../shared/components/footer'
 
 
 const HomePage = dynamic(()=> import('../components/home/index'), {
@@ -27,6 +28,7 @@ const Home = () => {
       <Navbar />
       <SocialBar />
       <HomePage />
+      <Footer />
     </PersonalDetailsContext.Provider>
     </>
   )
