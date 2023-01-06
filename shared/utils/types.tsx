@@ -4,9 +4,9 @@ export interface PersonalDetails {
     about: string;
     socialMedia: SocialMedia[];
     work: Work;
-    resume: string;
+    resume?: string;
     profile_img: string;
-    calendyUrl: string;
+    calendyUrl?: string;
 }
 
 export interface SocialMedia {
@@ -19,4 +19,18 @@ export interface Work {
     company: string;
     destination: string;
     logo: string;
+}
+
+export interface Project {
+    slug: string;
+    tagLine: string;
+    description: string;
+    img: string;
+    name: string;
+    tags: string[];
+    github: string;
+    category: string[];
+    featured: boolean;
+    launch_video: string;
+    url?: string;
 }
