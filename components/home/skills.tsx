@@ -5,7 +5,7 @@ import SkillsIcons from './skills-icons';
 function SkillsExplore() {
     return (
         <>
-            <div className="relative h-auto py-10 lg:py-20" id="skills">
+            <div className="relative py-10 lg:py-20" id="skills">
                 <img
                     src="/images/vectors/cylinder.svg"
                     alt='Cylinder Vector'

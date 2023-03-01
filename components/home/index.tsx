@@ -1,15 +1,19 @@
 import React from 'react';
 import LandingPage from './landing-page';
+import Projects from './projects';
 import SkillsExplore from './skills';
+import Technologies from './technologie';
 import Work from './work';
 
 function HomePage() {
     return (
-        <div className='bg-blue pt-28'>
+        <div>
             <div className='overflow-x-clip'>
                <LandingPage />
-               <SkillsExplore />
-               <Work />
+               <Projects />               
+               <Technologies />
+               {/* <SkillsExplore /> */}
+               {/* <Work /> */}
             </div> 
         </div>
     );

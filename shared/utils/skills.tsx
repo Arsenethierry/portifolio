@@ -1,6 +1,6 @@
-import { Skill } from './types';
+import { Skills } from './types';
 
-const SKILLS: Skill[] = [
+const SKILLS: Skills[] = [
   {
     name: 'MongoDB',
     src: '/images/skills/mongodb.svg'
